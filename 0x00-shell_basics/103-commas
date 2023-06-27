@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -map
+ls -p1 | sed 's/[^0-9a-zA-Z\/\.]/\n/g' | awk '{ printf "%s,",$0 } END { print "" }'
+
