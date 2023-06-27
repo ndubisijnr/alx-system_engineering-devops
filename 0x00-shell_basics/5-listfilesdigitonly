@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 ls -lan
+=======
+ls -al
+>>>>>>> f6a188121f2a3e95414b3828f0fae3120943cf37
